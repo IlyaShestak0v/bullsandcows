@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include <ctime>
 using namespace std;
 
@@ -27,6 +28,9 @@ int main(){
             if (i != j && B[i] == A[j]) cows++;
         }
     }
-  }
+cout << bulls << " быков " << cows << " коров ";
+} while (bulls < 4);
+cout << "Поздравляем,вы угадали число! "; 
+return 0;
 }
 
